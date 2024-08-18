@@ -1,0 +1,68 @@
+id|name
+0500CA8888884000|cate bossfight v1.3.1
+0500AE5003EE6000|The Jackbox Party Pack Patched
+050015D003EE4000|The Jackbox Party Pack 2 Patched
+0500CC80013D6000|The Jackbox Party Pack 3 Patched
+0500E1F003EE8000|The Jackbox Party Pack 4 v1.1.0 Patched
+05006FE0096AC000|The Jackbox Party Pack 5 v1.0.1 Patched
+05005A400DB52000|The Jackbox Party Pack 6 v1.1.0 Patched
+05007F30113A6000|The Jackbox Party Pack 7 v1.0.1 Patched
+050050F015280000|The Jackbox Party Pack 8 Patched
+0500BFB018134000|The Jackbox Party Pack 9 v1.0.2 Patched
+050050CE11E68000|Anime Movie Player - Panty & Stocking with Garterbelt
+050050CE11E98000|Anime Movie Player - SteinsGate
+0500E80B00BA0000|Anime Movie Player - Flip Flappers
+0500E8500A780000|Anime Movie Player - Your Lie in April
+050050CE11E48000|Anime Movie Player - Made in Abyss
+05006D300BDA0000|Anime Movie Player - Darling in the Franxx
+050050CE11E58000|Anime Movie Player - ERASED
+05450B00BA020000|AM2R (Another Metroid 2 Remake) 1.5.2-nx fix4
+050050CE11ED8000|Movie Player - Doctor Strange
+0500C14007E42000|Movie Player - The Matrix Trilogy
+05005E2892018000|ZeroRanger fix9
+05008BF00A1C8000|Sloop
+0500515C51CA0000|Sonic 1 SMS Remake
+0500595C59CA0000|Sonic 1 SMS Remake v1.9.2
+0500525C51CA0000|Sonic 2 SMS Remake
+0500585C58CA0000|Sonic 2 SMS Remake v2.9.2
+05005873236D0000|Sonic Time Twisted v1.1.2.1
+0500814017CB6000|The Jackbox Party Starter Patched
+0500DBA0169C2000|Virtual Maid Streamer Ramie 18+
+0500AA700B9A2000|ノラと皇女と野良猫ハート HD 18+
+0500A4300BEFC000|ノラと皇女と野良猫ハート2 18+
+050022801242C000|KukkoroDays 18+
+05005EA012430000|TroubleDays 18+
+05002EC014BCA000|Idol Days 18+
+050043200F874000|NekoMiko 18+
+0500746010E4C000|NinNinDays 18+
+0500DEF016364000|NinNinDays2 18+
+0500CB600E1F6000|ラズベリーキューブ 18+
+05000E2012F6E000|Fantasy Tavern Sextet -Vol.1 New World Days- 18+
+05005C10136CA000|Fantasy Tavern Sextet -Vol.2 Adventurer's Days- 18+
+050043D014336000|Fantasy Tavern Sextet -Vol.3 Postlude Days- 18+
+0500076015D4E000|COSPLAY LOVE! Enchanted princess 18+
+0500CA2017EAC000|槇村葉月の恋語り 18+
+0500312015C1A000|Secret Kiss is Sweet and Tender 18+
+0503030304B52000|Katawa Shoujo
+0506B73726570000|Katawa Shoujo Repair
+0506F6F6D6770000|Monster Girl Quest
+05006FF014152000|ハミダシクリエイティブ 18+
+05004A5017C50000|絶対君主！小夜様 ～バイト面接に行ったら小夜様の下僕だった件～ My Lady Sayo 18+
+0500F7800A434000|Drawful 2 v1.1.0 Patched
+050015A0113E0000|Quiplash Patched
+0500AF100EE76000|Quiplash 2 InterLASHional v1.1.0 Patched
+0500ECF00ECEE000|となりに彼女のいる幸せ ～Two Farce～ PC 18+
+05099FB4D400E000|清楚系双子アイドルの裏事情 ～俺だけが知る淫らな二人～
+0500D1D0113B8000|となりに彼女のいる幸せ Summer Surprise 18+
+05003460150F2000|となりに彼女のいる幸せ～Winter Guest～ PC 18+
+0500A18011BE4000|となりに彼女のいる幸せ～Curious Queen～ 18+
+050A0582A332A000|となりに彼女のいる幸せ～Two Farce～ セカンドサマー
+050093700ECEC000|ボクと彼女の研修日誌 PC 18+
+0500D22512158000|Sonic Dimensions v2
+0500B00B41156000|ONAF: The ⅔Egg Collection
+05009C200F45A000|Ascendant Hearts 18+
+05000FD261232000|Pizza Tower
+054507E0B7552000|Super Mario 64 v8
+050001338BE14000|Super Mario World
+0500192B5A99A000|Tamas Awakening
+0500C9F01B526000|The Jackbox Party Pack 10 Patched

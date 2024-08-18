@@ -1,0 +1,80 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Build TitleDB
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  schedule:
+    - cron: 22 * * * *
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  repository_dispatch:
+    types:
+      - webhook 
+  
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+        with:
+          repository: blawar/nut
+      
+      - name: Install Linux deps
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        env:
+          USECURL: 7.79.0-openssl11-gssapi-libssh2
+          USESSL: openssl
+          USEOPENSSL: 1.1.1d
+        with:
+          packages: libcurl4-gnutls-dev libgnutls28-dev
+      
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.12.3
+          cache: 'pip'
+      - run: |
+          pip install -r requirements.txt
+          pip install Werkzeug~=2.3.7
+          
+
+
+      # Runs a set of commands using the runners shell
+      - name: Build TitleDB
+        run: |
+          git clone --depth 1 https://github.com/blawar/titledb titledb &
+          curl https://raw.githubusercontent.com/NXResources/NX_TitleDB/main/demos.txt > demos.txt
+          curl https://raw.githubusercontent.com/NXResources/NX_TitleDB/main/homebrew.txt > homebrew.txt
+          curl https://raw.githubusercontent.com/NXResources/NX_TitleDB/main/overrides.txt > overrides.txt
+          curl https://raw.githubusercontent.com/NXResources/NX_TitleDB/main/retailOnly.txt > retailOnly.txt
+          curl https://raw.githubusercontent.com/NXResources/NX_TitleDB/main/nut.conf > conf/nut.conf 
+          curl https://raw.githubusercontent.com/NXResources/NX_TitleDB/main/tiny.py > tiny.py
+          wait 
+          mv *.txt titledb/ 
+          touch titledb/titles.json
+          python3 nut.py -U --import-region US --language en
+          
+
+      - name: Run tiny.py
+        run: |
+          python3 tiny.py titledb/titles.json -o titles.US.en.json
+          python3 tiny.py titledb/titles.json -o titles-tiny.US.en.json -f description iconUrl name
+
+      
+      - uses: "softprops/action-gh-release@v2"
+        with:
+          prerelease: false
+          tag_name: latest
+          files: |
+            titles.US.en.json
+            titledb/titles.json
