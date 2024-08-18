@@ -77,4 +77,4 @@ jobs:
           tag_name: latest
           files: |
             titles.US.en.json
-            titledb/titles.json
+            titles-tiny.US.en.json
